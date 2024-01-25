@@ -6,31 +6,93 @@
     <title>Form</title>
 </head>
 <body>
-    <fieldset>
+    
         <form caption="server.js" method="post">
+            <fieldset>
             <h1><strong><em>SIGNUP</em></strong></h1>
-            <p>Enter your name: <input type="text" name="Name" placeholder="Your Name"></p>
-            <p>Enter your Email: <input type="var"name="Email"placeholder="Email I'd"></p>
-            <p>Enter your Phone Number: <input type="number"name="number" placeholder="Number"></p>
-        <p>Choose your gender: <input type="radio"id="M" name="gen"value="Male">
+            <div><p>Enter your name: <input type="text" name="Name" placeholder="Your Name"></p></div>
+            <div> <p>Enter your Email: <input type="var"name="Email"placeholder="Email I'd" pattern="/[^@gmail,@yahoo,@email]"></p></div>
+            <div><p>Enter your Phone Number: <input type="number"name="number" placeholder="Number"></p></div>
+            <div>
+                <p>Enter your passward:<input type="password" placeholder="enter password" name="pwd"
+                 pattern="/[A-Za-z]{4}[0-9]{4}/"
+                minlength="8" maxlength="12"></p></div>
+
+               <div> <p>Enter your age:<input type="number" name="age" id="" min="20" max="25"></p></div>
+               
+              
+            <div>
+                <p>Choose your gender: <input type="radio"id="M" name="gen"value="Male">
             <label for="M">Male</label>
             <input type="radio"id="F" name="gen"value="Female">
             <label for="F">female</label>
+        </div>
         </p>
+        <div>  
         <p>Select City: <input type="checkbox"name="city" id="B"value="Bhubaneswar">
-        <label for="B">Bhubaneswar</label>
-        <input type="checkbox"name="city" id="H"value="Hyderbad">
-        <label for="H">Hyderbad</label>
-        <input type="checkbox"name="city" id="V"value="Vizag">
-        <label for="V">Vizag</label>
-        <input type="checkbox"name="city" id="D"value="Delhi">
-        <label for="D">Delhi</label>
-        <input type="checkbox"name="city" id="M"value="Mubai">
-        <label for="M">Mubai</label>
-    </p>
-    <button>Submit</button>
+            <label for="B">Bhubaneswar</label>
+            <input type="checkbox"name="city" id="H"value="Hyderbad">
+            <label for="H">Hyderbad</label>
+            <input type="checkbox"name="city" id="V"value="Vizag">
+            <label for="V">Vizag</label>
+            <input type="checkbox"name="city" id="D"value="Delhi">
+            <label for="D">Delhi</label>
+            <input type="checkbox"name="city" id="M"value="Mubai">
+            <label for="M">Mubai</label>
+        </p>
+        </div>
+        <div>
+            <label for="flowers">Choose your favourite Flower:</label>
+            <select name="flower" id="flowers">
+                <option value="rose">Rose</option>
+                <option value="jasmine">Jasmine</option>
+                <option value="lotus">Lotus</option>
+                <option value="lilly">Lilly</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="fr">Please Select your favourite Fruit:</label>
+            <input type="text" name="fruit" id="fr" list="mydata">
+            <datalist id="mydata">
+                <option value="apple"></option>
+                <option value="banana"></option>
+                <option value="orange"></option>
+                <option value="mango"></option>
+            </datalist>
+        </div><br>
+        <div>
+            <label for="vc">Choose your vehicle:</label>
+            <select name="vehicle" id="vc">
+                <optgroup label="Cars">
+        
+                    <option value="bmw">BMW</option>
+                    <option value="lamborgini">Lamborgini</option>
+                    <option value="maruti">Maruti</option>
+                    <option value="tatasumo">tata sumo</option>
+                    <option value="ferrari">ferari</option>
+                </optgroup>
+                <optgroup label="bikes">
+                    <option value="duke">Duke</option>
+                    <option value="pulsur">pulsur</option>
+        
+                    <option value="hayabuza">Hayabuza</option>
+        
+                    <option value="rf">royal enfield</option>
+                </optgroup>
+                <optgroup label="others">
+                    <option value="bullokart">bullokart</option>
+                </optgroup>
+        
+            </select>
+        </div><br>
+        
+        <div>
+            <button>Submit</button>
+            <input type="reset" value="Reset">
+        </div>
+    </fieldset>
 
         </form>
-    </fieldset>    
+       
 </body>
 </html>
