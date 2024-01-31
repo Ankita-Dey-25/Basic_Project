@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('https://th.bing.com/th/id/R.65ebf46429981f55896de76e57707043?rik=zEHHgYB2TZUGDg&riu=http%3a%2f%2fwww.officelovin.com%2fwp-content%2fuploads%2f2016%2f10%2fdeloitte-toronto-office-2.jpg&ehk=FynuWiYhYi1uBN6TadxytXuH3P00v06Y42OXp5NHIac%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;     
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply_box {
+    max-width: 600px;
+    padding: 20px;
+    background-color:transparent;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  .apply_box h1{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    padding: 10px 70px;
+    background-color: cornflowerblue;
+    border-radius: 0 0 10px 10px;
+   
+  }
+  .title_small {
+    font-size: 20px;
+  }
+  .form_container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    overflow: hidden;
+  }
+  label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align:justify;
+    font-size: large;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    
+  }
+  input:focus {
+  outline-color:skyblue;
+}
+
+.button_container {
+  display: flex;
+
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+button {
+  background-color: red;
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color:greenyellow;
+  border: 2px solid greenyellow;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.textarea_control {
+  grid-column: 1 / span 2;
+}
+.textarea_control textarea {
+  width: 100%;
+}
+
+@media (max-width: 460px) {
+  .textarea_control {
+    grid-column: 1 / span 1;
+  }
+} 
