@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-color:cadetblue;
+body {
+  background-color:rgb(239, 245, 245);
   min-height: 100vh;
-  border: 10px solid #1d1e4c;
+  border: 8px solid whitesmoke;
 }
 .content {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: 0 auto;
 }
 .top_section {
@@ -27,11 +27,13 @@
   color:darkgreen;
   text-transform: uppercase;
   font-size: 60px;
+   margin-left: 50px;
 }
 .top_section h4 {
   font-size: 20px;
   text-align:start;
-  color: darkblue;
+  color: rgb(4, 72, 99);
+  margin-left: 50px;
 }
 /* .image_container {
   border-radius: 50%;
@@ -46,73 +48,211 @@ img {
 .image_container{
   position: relative;
   margin-top: 20px;
-  top: 0;
-  left: 0;
+  border: 2px solid white;
+  border-radius: 20px;
+
 }
 .img1{
-  position: relative;
+  position:relative;
   top: 0;
-  left: 0;
-  border: 1px solid #000000;
-  border-radius: 20px;
+  width: 1282px; 
+  /* border: 0.2px solid rgb(223, 21, 206); */
 }
 .img2{
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 60px;
-  width: 210px;
-  height: 210px;
-  border: 1px solid #000000;
+  padding: 20px;
+  left: 120px;
+  width: 300px;
+  height: 300px;
 }
 .about_section {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .about_section h2 {
   font-size: 70px;
   font-weight: 400;
   margin-bottom: 20px;
   color:darkblue;
+  font-style: italic;
+  text-align: center;
+  left: 20px;
 }
 .about_section p {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
   letter-spacing: 1.2px;
   text-align: justify;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  text-align: center;
+  padding: 20px;
+  margin: 10px 20px;
+  color: rgb(24, 23, 23);
+  font-style: italic;
 }
+.dashboard{
+  box-sizing: border-box;
+  background-color: rgb(223, 21, 206);
+  height: 50px;
+  border: 1px solid rgb(223, 21, 206);
+  text-align: center;
+}
+.dashboard a{
+  line-height: 1em;
+  display: inline-block;
+  text-decoration: none;
+  padding:10px;
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  word-spacing: 250px;
+  white-space: nowrap;
+  line-height: 0.8;
+}
+.dashboard a:hover{
+  color: #1d1e4c;
+}
+
+
+
 .biography_section {
-  margin: 50px 0;
+  margin: 10px 0;
+  background-color: rgb(241, 237, 230);
 }
 .biography_section h2{
   margin-bottom: 20px;
   color:darkblue;
+  left: 30px;
+  font-size: 50px;
 }
 .biography_section ul {
   margin-left: 50px;
+  font-size: 50px;
 }
 .biography_section li {
   margin-bottom: 15px;
   font-size: 16px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-size: 30px;
 }
 .achivement h3{
   color:darkblue;
+  background-color: rgb(241, 237, 230);
+  
+}
+.contain h3{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 50px;
+  /* background-color: rgb(160, 204, 221); */
 }
 #book_details{
-  margin: 20px 0;
+  margin: 10px 0;
   margin-left:50px ;
+  font-size: 40px;
+  background-color: rgb(241, 237, 230);
+  
+  /* border: 3px solid rgb(81, 81, 197); */
 }
 #book_details th,td{
   border: 1px solid black;
   padding-left: 10px;
   text-align: justify;
 }
+.micro{
+  background-color: rgb(241, 237, 230);
+  margin-top: 10px;
+}
+.micro h2{
+  color:darkblue;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+.micro p {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 1.2px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 20px;
+  color: rgb(24, 23, 23);
+}
+.micro img{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin-top: 50px; 
+}
+.political{
+  background-color: rgb(241, 237, 230);
+  margin-top: 10px;
+}
+.political h2{
+  color:darkblue;
+  margin-left: 30px;
+  margin-top: 0;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.political dt {
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(75, 75, 218);
+}
+.political iframe{
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
 footer {
   margin: 60px 0;
+  text-align: center;
 }
+.fa {
+  padding: 20px;
+  /* font-size: 10px; */
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #d44c4c;
+  color: white;
+}
+.fa-telegram{
+  background: #55ACEE;
+  color: white;
+}
+
 footer p {
   text-align: end;
+  margin-right: 50px;
+  margin-top: 20px
 }
 
   
