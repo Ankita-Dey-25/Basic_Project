@@ -1,0 +1,193 @@
+
+body
+{
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+ background: linear-gradient(40deg,rgb(170, 40, 209),rgb(75, 75, 211));
+ 
+}
+li
+{ list-style-type:none;}
+a{
+    color: white;
+    text-decoration: none;
+}
+header a
+{
+    font-size: 30px;
+    font-style: italic;
+}
+ .hire
+{
+    color:aqua;
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 50px;
+    transition: all 1s ease;
+    border: .1rem solid aqua;
+}
+.download{
+    color:black;
+    background-color:aqua;
+    padding: 20px;
+    border-radius: 50px;
+    transition: all 1s ease;
+    border: .1rem solid aqua;
+    margin-left: 20px;
+}
+
+.hire:hover{
+    background-color: aqua;
+    color: black;
+}
+.download:hover{
+    background-color: transparent;
+
+}
+header
+{
+    background-color:rgb(66, 66, 173);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: sticky;
+    z-index: 100;
+}
+h2 span
+{
+    color: aqua;
+}
+header ul
+{
+    display: flex;
+    gap: 25px;
+}
+header ul li a:hover{
+color: aqua;
+}
+section
+{
+    padding: 100px;
+}
+#banner
+{
+    display: flex;
+    gap: 30px;
+}
+#banner div:first-child
+{
+ width: 60%;
+}
+#banner div:last-child
+{
+    width: 40%;
+}
+#content h2
+{
+  font-size: 40px;
+}
+#content h3{
+    color: rgb(35, 252, 252);
+    font-size: 50px;
+}
+#content p
+{
+    font-size: 30px;
+}
+
+#about
+{
+    text-align: start;
+
+}
+.heading
+{
+    text-align: start;
+    font-size: 36px;
+    text-shadow: 5px 5px 5px aqua;
+}
+#about img{
+    height: auto;
+    width: 400px;
+    margin-top: 20px;
+    align-items: end;
+    margin-left: 20px;
+    m
+}
+#about p
+{
+    font-size: 30px;
+    text-align: justify;
+}
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+    gap: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+.project:hover
+{
+    box-shadow: 5px 5px 5px aqua;
+}
+
+.project h2{
+    color: black;
+}
+.project img
+{
+  height: 150px;
+  width: 150px;
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form
+{
+    padding: 50px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid aqua;
+    border-radius: 15px;
+}
+#form input{
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline: 0px;
+    font-size: 25px;
+}
+textarea{
+    width: 200px;
+    height: 200px;
+        border-radius: 15px;
+        border: 1px solid black;
+    font-size: 25px;
+    resize: none;
+}
+#form input:focus,textarea:focus{
+        border: 2px solid aqua;
+
+}
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
