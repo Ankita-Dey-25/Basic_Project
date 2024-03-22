@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Robots',sans-serif;
+}
+#navbar{
+    background: rgb(212, 207, 207);
+}
+#logo{
+   font-size: 36px;
+   font-weight: 700;
+   color: black;
+   margin-left: 30px;
+   text-shadow: 0px 1px 1px black;
+   margin-bottom: 5px; 
+}
+#logo span{
+    color: orange;
+}
+.navbar-toggler span{
+    color: orange;
+}
+.navbar-nav{
+   margin-top: 20px;
+   text-align: center;
+   justify-content: center;
+   margin-left: 60px;
+}
+.nav-item  .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: .3s ease;
+}
+.nav-item .nav-link:hover{
+    color:white;
+    color: orangered;
+}
+#navbar form button{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(https://img.freepik.com/free-photo/famous-view-lyon-with-saone-river-night_268835-1279.jpg?w=740&t=st=1707756646~exp=1707757246~hmac=a7c73b98e7c35707b95302659ce9dd3dc15abe38bf7c9b12f3b4d60f66c5a370);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 68px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+
+}
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-shadow: 0px 1px 1px black ;
+    margin-bottom: 30px;
+    margin-bottom: 5px;
+}
+.change-content::after{
+    content: '';
+    color: orange;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+.home .content a{
+    padding: 10px;
+    color: black;
+    font-weight: 550;
+    border-radius: 5px;
+}
+.home .content .btn{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 13px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .50s ease;
+    cursor: pointer;   
+}
+.home .content .btn:hover{
+    background: transparent;
+    border: 2px solid orange;
+}
+/* .about{
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+
+}
+.heading-about{
+    color: black;
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.heading-about::before{
+    content: '';
+    position:absolute;
+    top: 44px;
+    left:  134px;
+    width: 80px;
+    background-color: red;
+    height: 3px;
+    width: 149px;
+}
+.heading-about::after{
+    content: '';
+    position:absolute;
+    top: 44px;
+    right:  134px;
+    width: 80px;
+    background-color: red;
+    height: 3px;
+    width: 149px;
+} */
+/* .para-about-details{
+    display: block;
+    color: black;
+    font-size:15px ;
+    text-align: center;
+    max-width: 100px;
+    margin: auto;
+
+} */
+.about-us-content{
+    margin-top: 50px; 
+}
+.img-about{
+    width: 100%;
+    height: 100vh;
+}
+.img-content{
+    width: 100%;
+    height:100% ;
+}
+.heading-content{
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+    padding: 10px 20px;
+}
+.para-content-about{
+    font-size: 15px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 500;
+    color: black;
+}
+/* .content-about a{
+    justify-content: center;
+    text-align: center;
+}
+.content-about .btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all .50s ease;
+    cursor: pointer; 
+}
+.content-about .btn:hover
+{
+    background: transparent;
+    border: 2px solid rgb(182, 146, 79);
+} */
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+
+}
+.main-txt h1 span{
+    color: orange;
+}
+.packages .card{
+    border-radius: 5px;
+    margin: 30px;
+    border: none;
+    box-shadow:rgb(48, 47, 47) 0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    
+}
+.packages .card:hover {
+    transform: scale(1.1);
+}
+.packages .card .card-body h3{
+    background:transparent;
+}
+.packages .card.card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: orange;
+}
+.star i{
+    font-size: 20px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: orange;
+    color: white;
+    border-radius: 50px;
+}
+.packages .card .card-body a:hover{
+    background: transparent;
+    border: 1px solid orange;
+    color: black;
+}
+
+
+.services{
+    background: white;
+    margin-top: 50px;
+
+}
+.services .card{
+    display: grid;
+    grid-template-columns: auto;
+    box-shadow: 0px 4px 12px  rgb(54, 52, 52);
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.services .card:hover{
+    transform: scale(1.1);
+}
+.services .card i
+{
+    font-size: 80px;
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body p{
+    text-align:center ;
+}
+
+.gallary{
+   margin-top: 50px; 
+}
+.gallary .card{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: opx 4px 12px black;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+.contact{
+    width: 100%;
+    margin-top: 40px;
+    height: 70vh;
+    background-color: rgb(37, 36, 36);
+    padding: 24px;
+}
+.footer-container{
+    margin-top: 20px;
+    padding: 30px 4px 9px 4px;
+}
+.container h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: green;
+}
+.container h3 span{
+ color: orange;
+ font-size: 35px;
+ font-weight: 800;
+}
+.container p{
+    font-size: 16px;
+    line-height: 30px;
+    color:rgb(80, 76, 76);
+    margin: 25px 0px;
+    
+}
+.heading-sm-fopter{
+    color: orange;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}
+.social-links-footer{
+    margin: 16px 0;
+}
+.icon-social-footer{
+    font-size: 21px;
+    padding: 9px;
+    border: 1px solid rgb(64, 131, 64);
+    color: green;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.icon-social-footer:hover{
+    background-color: green;
+    color: white;
+}
+.page-footer h3{
+    font-size: 29px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: rgb(180, 131, 40);
+
+}
+.page-footer p{
+    color: aliceblue;
+
+}
+.page-footer .nav-item li{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 10px;
+    color: white;
+}
+.footer-rights{
+    margin-top: 22px;
+    border-top: 1px solid rgba(255,255,255,0.32);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(228, 230, 231);
+    justify-content: center;
+}
+.right-para{
+    margin: 9px;
+    color: (255,255,255,0.623);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes changetxt{
+    0%{content:"India";}
+    10%{content:"Italy";}
+    20%{content:"Turkey";}
+    30%{content:"Germany";}
+    40%{content:"Spain";}
+    50%{content:"France";}
+    60%{content:"China";}
+    70%{content:"Japan";}
+}
+@media(max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media(max-width:450px){
+    .home .content h5{
+       font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+
